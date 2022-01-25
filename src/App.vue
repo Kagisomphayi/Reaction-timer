@@ -44,13 +44,13 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #444444;
+  color: #000000;
   margin-top: 60px;
   
 }
 button{
   background-color: darkmagenta;
-  color: white;
+  color: rgb(240, 227, 227);
   border-radius: 4px;
   font-size: 20px;
 
