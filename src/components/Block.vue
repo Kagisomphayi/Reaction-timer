@@ -29,7 +29,7 @@ this.timer=setInterval(() => {
 
     stopTimer(){
         clearInterval(this.timer)
-        console.log(this.reactionTime)
+        this.$emit('end',this.reactionTime)
     }
   },
 };
@@ -39,7 +39,7 @@ this.timer=setInterval(() => {
 .block {
   width: 400px;
   border-radius: 15px;
-  background: blueviolet;
+  background:darkmagenta;
   color: cornsilk;
   padding: 100px 0;
   margin: 50px auto;
